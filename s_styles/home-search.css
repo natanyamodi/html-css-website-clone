@@ -1,0 +1,33 @@
+.home-search{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  font-family: arial;
+  border-radius: none;
+  border-radius: 10px;
+  width: 420px;
+  height: 120px;
+  font-weight: bold;
+  font-size: 15px; 
+  margin-bottom: 8px;
+  position: fixed;
+}
+
+.home-bar{
+  display: flex;
+  align-items: center;
+  padding: 23px 23px 25px 23px;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  padding: 0 23px 23px 23px;
+}
+
+.home-icon, .search-icon{
+  height: 22px;
+  padding-right: 20px;
+  margin-right: 0;
+}

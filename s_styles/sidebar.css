@@ -1,0 +1,150 @@
+.search-bar{
+  display: flex;
+  align-items: center;
+  padding: 0 23px 23px 23px;
+}
+
+.home-icon, .search-icon{
+  height: 22px;
+  padding-right: 20px;
+  margin-right: 0;
+}
+
+.home-search{
+  display: flex;
+  background-color: rgb(17, 17, 17);
+  position: fixed;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  font-family: arial;
+  border: none;
+  border-radius: 10px;
+  width: 420px;
+  font-weight: bold;
+  font-size: 15px;
+  position: fixed;
+  top: 135px;
+  bottom: 100px;
+  padding-bottom: 20px;
+}
+
+.lib{
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.lib-icon{
+  height:30px;
+}
+
+.lib-head{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.tags{
+  display: flex;
+  padding-left: 18px;
+}
+
+.tags div{
+  background-color: rgb(29, 29, 29);
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 100;
+}
+
+.top-section{
+  position: fixed;
+  top: 135px;
+  bottom: 450px;
+  width: 420px;
+}
+
+.recents-tab{
+  display: flex;
+  align-items: center;
+  padding: 15px 18px 15px 25px; 
+  justify-content: space-between;
+  color: rgb(206, 206, 206);
+  position: relative;
+  top: 0;
+}
+
+.recents-tab img{
+  height: 15px;
+}
+
+.lib-grid{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.lib-grid:hover{
+  overflow-y: auto;
+}
+
+.lib-grid::-webkit-scrollbar {
+  width: 14px;
+}
+
+.lib-grid::-webkit-scrollbar-thumb {
+  background-color: #505050
+}
+
+.lib-grid::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(104, 104, 104);
+}
+
+
+.lib-info{
+  display: flex;
+  flex-direction: column;
+  color: rgb(206, 206, 206);
+  font-size: 16px;
+}
+
+.lib-row{
+  display: flex;
+  font-weight: 100;
+  padding-left: 18px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidebar .album{
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.album-made-by{
+  padding-top: 5px;
+  font-size: 14px;
+  color: rgb(159, 159, 159);
+}
+
+
+@media (min-width: 451px) and (max-width: 899px){
+  .home-search, .sidebar{
+    width: 220px;
+  }
+}

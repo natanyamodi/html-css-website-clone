@@ -1,0 +1,44 @@
+p{
+  font-size: 30px;
+  margin: 4px;
+  color: gray;
+}
+.img1{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+
+.desc{
+  width: 400px;
+}
+
+.name{
+  font-weight: bold;
+  color: black
+}
+
+.follow-button{
+  background-color: rgb(194, 89, 255);
+  border: none;
+  color: white;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+  margin-left:10px;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,91 @@
+main{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgb(49, 62, 79) 20%, rgb(17, 17, 17));
+  position: absolute;
+  left: 435px;
+  right: 5px;
+  top: 7px;
+  bottom:100px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0 15px 25px;
+  font-family: arial;
+  overflow: hidden;
+}
+
+main:hover{
+  overflow-y: scroll;
+}
+
+main::-webkit-scrollbar {
+  width: 14px;
+}
+
+main::-webkit-scrollbar-thumb {
+  background-color: #505050
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(104, 104, 104);
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.prev-button{
+  height: 30px;
+  width: 30px;
+  font-size: 25px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(17, 17, 17);
+  color: rgb(206, 206, 206);
+  font-weight: 100;
+}
+
+.user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.install-button{
+  display: flex;
+  align-items: center;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  padding: 6px 10px 6px 8px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.download-icon{
+  height: 23px;
+  border-radius: 15px;
+  margin-right: 4px;
+}
+
+.user-icon{
+  height: 34px;
+  width: 34px;
+  object-fit: cover;
+  border-color: black;
+  border-radius: 20px;
+  margin-right: 25px;
+}
+
+.wish{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}

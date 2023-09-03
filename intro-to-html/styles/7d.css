@@ -1,0 +1,52 @@
+p{
+  font-family: 'Times New Roman';
+  margin-bottom: 0;
+}
+.search-bar{
+  font-size: 20px;
+  width: 500px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.email-heading{
+  margin-bottom: 7px;
+}
+
+.email{
+  border-color: black;
+  border-style: solid;
+  width: 370px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  margin-bottom: 7px;
+}
+
+.disclaimer{
+  margin-bottom: 15px;
+}
+
+.button{
+  background-color: rgb(7, 67, 186);
+  color: white;
+  border-radius: 50px;
+  width: 380px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  transition: 0.34s;
+}
+
+.button:active{
+  opacity: 0.5;
+  margin-left: 2px;
+  margin-top: 2px;
+}
